@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    width: 100%;
+    height: 100vh;
+}
+
+/* #app{
+    height: 100%;
+} */
+.text-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #23262F;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    color: #23262F;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    color: #23262F;
+}
+
+.text-span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+}
+
+span {
+    /* color: #87898E; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.link-text-color {
+    color: #409eff !important;
+}
+
+.span-text-color {
+    color: #87898E !important;
+}
+
+.line1 {
+    width: 516px;
+    height: 0px;
+    border: 1px solid #DFDFE6;
+}
+
+.page-joinroom,
+.page-createroom {
+    background: linear-gradient(89.64deg, #F4F7FC 3.98%, #FFFFFF 98.85%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-joinroom,
+.box-createroom {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 24px 40px 40px;
+    gap: 32px;
+    width: 596px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 25px 15px rgba(127, 156, 203, 0.12);
+    border-radius: 16px;
+}
+
+.text-span-small {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #87898E;
+}
+
+.text-bold-small {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: #23262F;
+}
